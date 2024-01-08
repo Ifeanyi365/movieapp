@@ -1,4 +1,36 @@
-/* @import url('https://fonts.googleapis.com/css?family=Poppins'); */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; 
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    .search {
+        width: 100%; 
+        margin-bottom: 1rem; 
+    }
+
+    main {
+        justify-content: center; 
+    }
+
+    .movie {
+        width: calc(50% - 2rem); 
+    }
+
+    .movie-info {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .overview {
+        max-height: none; 
+        transform: translateY(0); 
+    }
+
+}
 
 :root {
     --primary-color: #22254b;
