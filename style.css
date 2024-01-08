@@ -148,5 +148,9 @@ main {
         transform: translateY(0); 
         padding: 1rem; 
     }
+
+    .movie:hover .overview {
+        transform: translateY(0);
+    }
 }
 
